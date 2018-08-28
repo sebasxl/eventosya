@@ -12,6 +12,7 @@
 
 </head>
 <body>
+	<!--
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-orange">
 		<div class="col-md-3">
 			<a class="navbar-brand" href="@">Eventos YA</a>
@@ -21,7 +22,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
@@ -49,3 +50,54 @@
 		</div>
 	</nav>
 
+
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Eventos Ya!</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Ayuda</a>
+        <a class="p-2 text-dark" href="#">Como Publico</a>
+        <a class="p-2 text-dark" href="#">Creá tu cuenta</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="#">Iniciar Sesion</a>
+    </div>
+	-->
+
+<!--
+	<nav class="d-flex bg-orange navbar navbar-expand-lg">
+	
+			<a class="navbar-brand p-2 mr-auto" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse p-2 ml-0" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="p-2 text-dark" href="#">Ayuda</a>
+					</li>
+					<li class="nav-item">
+						<a class="p-2 text-dark" href="#">Como Publico</a>
+					</li>
+					<li class="nav-item">
+						<a class="p-2 text-dark" href="#">Creá tu cuenta</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-outline-primary" href="#">Iniciar Sesion</a>
+					</li>
+				</ul> 
+			</div>
+	
+		
+	</nav>
+-->
+
+<header class="navbar d-flex bg-orange">
+	<div class="navbar-brand p-2 mr-auto">
+		Eventos Ya!
+	</div>
+	<div class="navigation p-2">
+		<a class="p-2 text-dark" href="#">Ayuda</a>
+		<a class="p-2 text-dark" href="#">Como Publico</a>
+		<a class="p-2 text-dark" href="#">Creá tu cuenta</a>
+		<a class="btn btn-outline-warning" href="#">Iniciar Sesion</a>
+	</div>
+</header>

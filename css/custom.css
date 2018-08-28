@@ -18,5 +18,27 @@ body {
 }
 
 .bg-orange{
-	background-color: #ffab00;
+	background-color: #fff7e6;
+}
+
+.carousel-inner{
+	display: block;
+	height: auto;
+	max-height: 600px;
+}
+
+.carousel-item img{
+	width: 100%;
+
+}
+
+.titular{
+	font-size: 34px;
+	text-transform: uppercase;
+	text-shadow: grey;
+	font-weight: bold;
+}
+.titular-fucsia{
+	color: #ff0066;
+	font-weight: bolder;
 }
