@@ -1,0 +1,22 @@
+/* ******************************************
+**
+**	REBOOT CSS STYLES
+**
+********************************************/
+*{
+	margin: auto;
+}
+body {
+	background: #fefefe;
+	margin: 0;
+	padding: 0;
+}
+
+.borde-azul {
+	border: blue 1px solid;
+	width: 100%;
+}
+
+.bg-orange{
+	background-color: #ffab00;
+}
