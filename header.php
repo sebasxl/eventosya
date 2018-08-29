@@ -90,14 +90,14 @@
 	</nav>
 -->
 
-<header class="navbar d-flex bg-orange">
+<header class="navbar d-flex bg-fucsia">
 	<div class="navbar-brand p-2 mr-auto">
 		Eventos Ya!
 	</div>
 	<div class="navigation p-2">
-		<a class="p-2 text-dark" href="#">Ayuda</a>
-		<a class="p-2 text-dark" href="#">Como Publico</a>
-		<a class="p-2 text-dark" href="#">Creá tu cuenta</a>
-		<a class="btn btn-outline-warning" href="#">Iniciar Sesion</a>
+		<a class="p-2 text-fucsia" href="#">Ayuda</a>
+		<a class="p-2 text-fucsia" href="#">Como Publico</a>
+		<a class="p-2 text-fucsia" href="#">Creá tu cuenta</a>
+		<a class="btn btn-outline-fucsia" href="#">Iniciar Sesion</a>
 	</div>
 </header>

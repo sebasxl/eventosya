@@ -14,31 +14,66 @@ body {
 
 .borde-azul {
 	border: blue 1px solid;
-	width: 100%;
 }
 
-.bg-orange{
-	background-color: #fff7e6;
+.bg-fucsia{
+	background-color: #9A1750;
 }
 
-.carousel-inner{
-	display: block;
-	height: auto;
-	max-height: 600px;
+.text-fucsia{
+	color: #E969A0;
 }
 
-.carousel-item img{
-	width: 100%;
-
+.text-fucsia:hover{
+	color: #FB95C1;
 }
 
-.titular{
+.btn-outline-fucsia {
+    color: #E969A0;
+    background-color: transparent;
+    background-image: none;
+    border-color: #E969A0;
+}
+
+.btn-outline-fucsia:hover {
+    color: #FFFFFF;
+    background-color: #E969A0;
+    background-image: none;
+    border-color: #E969A0;
+}
+
+.jumbotron{
+	background: url("../imagenes/index2.jpg");
+	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	max-height: 600px;
+  	position: relative;
+
+	
+}
+
+
+.container-in-jumbo{
 	font-size: 34px;
 	text-transform: uppercase;
 	text-shadow: grey;
 	font-weight: bold;
+	text-align: center;
+	padding-top: 300px;
+
 }
 .titular-fucsia{
 	color: #ff0066;
 	font-weight: bolder;
+}
+
+.btn-fucsia {
+    color: #FFFFFF;
+    background-color: #E969A0;
+}
+
+.btn-fucsia:hover {
+    color: #FFFFFF;
+    background-color: #ff0066;
 }
