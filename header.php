@@ -1,103 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <!-- Required meta tags -->
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/reboot.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title></title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Eventos Ya!</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template style.css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <!-- Font used in template -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+    <!--font awesome icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-	<!--
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-orange">
-		<div class="col-md-3">
-			<a class="navbar-brand" href="@">Eventos YA</a>
-		</div>
-		<div class="col-md-9">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
-					<li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Dropdown link
-				        </a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				    	    <a class="dropdown-item" href="#">Action</a>
-				        	<a class="dropdown-item" href="#">Another action</a>
-				        	<a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-				    </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-      <h5 class="my-0 mr-md-auto font-weight-normal">Eventos Ya!</h5>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Ayuda</a>
-        <a class="p-2 text-dark" href="#">Como Publico</a>
-        <a class="p-2 text-dark" href="#">Creá tu cuenta</a>
-      </nav>
-      <a class="btn btn-outline-primary" href="#">Iniciar Sesion</a>
+    <div class="collapse" id="searcharea">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+    <button class="btn tp-btn-primary" type="button">Search</button>
+    </span> </div>
     </div>
-	-->
-
-<!--
-	<nav class="d-flex bg-orange navbar navbar-expand-lg">
-	
-			<a class="navbar-brand p-2 mr-auto" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse p-2 ml-0" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="p-2 text-dark" href="#">Ayuda</a>
-					</li>
-					<li class="nav-item">
-						<a class="p-2 text-dark" href="#">Como Publico</a>
-					</li>
-					<li class="nav-item">
-						<a class="p-2 text-dark" href="#">Creá tu cuenta</a>
-					</li>
-					<li class="nav-item">
-						<a class="btn btn-outline-primary" href="#">Iniciar Sesion</a>
-					</li>
-				</ul> 
-			</div>
-	
-		
-	</nav>
--->
-
-<header class="navbar d-flex bg-fucsia">
-	<div class="navbar-brand p-2 mr-auto">
-		Eventos Ya!
-	</div>
-	<div class="navigation p-2">
-		<a class="p-2 text-fucsia" href="#">Ayuda</a>
-		<a class="p-2 text-fucsia" href="#">Como Publico</a>
-		<a class="p-2 text-fucsia" href="#">Creá tu cuenta</a>
-		<a class="btn btn-outline-fucsia" href="#">Iniciar Sesion</a>
-	</div>
-</header>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 logo">
+                    <div class="navbar-brand">
+                        <a href="index.php"><img src="images/logo.png" alt="Wedding Vendors" class="img-responsive"></a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="navigation" id="navigation">
+                         
+                        <ul>
+                            <li class="active"><a href="index.php">Home</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                            <li><a href="#" title="Home" class="animsition-link">¿Como publico?</a></li>
+                            <li><a href="#">Registrarme</a></li>
+                            <li><a href="#" class="btn btn-info">Iniciar Sesion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
